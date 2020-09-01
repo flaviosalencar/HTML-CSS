@@ -1,0 +1,59 @@
+body{
+	background-color: #e6e6f0y;
+}
+
+h2{
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 2em;
+}
+p{
+	font-family: verdana;
+	font-size: 15px;
+}
+
+span{
+	color: white;
+	background-color: red;
+}
+
+#primeira-coluna{
+	width: 30%;
+	float: left;
+}
+
+#segunda-colune{
+	width: 70%;
+	margin-left: auto;
+}
+
+#paragrafo{
+	clear: both;
+}
+
+.corpo-texto{
+	font-family: serif;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+thead th{
+	background: darkgray;
+}
+
+tbody tr:nth-child(odd){
+	background: lightgray;
+}
+
+tbody tr:hover, tfoot:hover{
+	background: black !important;
+	color: white;
+}
