@@ -1,0 +1,41 @@
+body{
+	background-color: #e0dcdc;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+}
+
+#lado_esquerdo{
+	width: 10%;
+	float: left;
+}
+
+#lado_direito{
+	width: 90%;
+	margin-left: auto;
+}
+
+#paragrafo{
+	clear: both;
+}
+
+#metade1{
+	width: 50%;
+	float: left;
+}
+
+#metade2{
+	width: 50%;
+	float: right;
+}
+
+.metade1{
+	width: 50%;
+	float: left;
+}
+
+.metade2{
+	width: 50%;
+	float: right;
+}
