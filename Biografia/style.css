@@ -1,19 +1,43 @@
 body{
 	background-color: #e0dcdc;
 }
+
 h2{
 	text-align: center;
 	font-size: 2em;
 }
 
-#lado_esquerdo{
-	width: 10%;
-	float: left;
+button{
+	background-color: #77a2e6;
 }
 
-#lado_direito{
-	width: 90%;
-	margin-left: auto;
+button a{
+	color:#e0dcdc;
+	text-decoration: none;
+}
+
+table{
+	font-size: 18px;
+	width: 50%;
+	border-collapse: collapse;
+	margin-right: auto;
+}
+
+table, tr{
+	border: 1px solid black;
+}
+
+table, th{
+	text-align: left;
+}
+
+thead tr:hover, thead th:hover{
+	background: white;
+	color: black;
+}
+
+#lado{
+	float: left;
 }
 
 #paragrafo{
@@ -25,17 +49,36 @@ h2{
 	float: left;
 }
 
+#metade1 a{
+	color: black;
+}
+
 #metade2{
 	width: 50%;
 	float: right;
 }
 
-.metade1{
-	width: 50%;
-	float: left;
+#metade2 a{
+	color: black;
 }
 
-.metade2{
-	width: 50%;
-	float: right;
+#imagem{
+	 width: 110px;
+	 border-radius: 30%;
+}
+
+.footer{
+	clear: both;
+	background-color: #77a2e6;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer a{
+	color: white;
 }
